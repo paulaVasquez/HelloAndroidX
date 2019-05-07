@@ -38,7 +38,8 @@ public class HelloXActivity extends AppCompatActivity implements View.OnClickLis
         //Set up a listener for listening button events (click)
         button.setOnClickListener(this);
         //Call this method to update the button text with current date and time
-        updateTime();
+        //updateTime();
+        button.setText("Bienvenido a tu primera App");
     }
 
     /**
